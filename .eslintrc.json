@@ -1,0 +1,18 @@
+{
+  "extends": ["react-app", "plugin:jsx-a11y/recommended", "prettier"],
+  "plugins": ["react", "jsx-a11y", "react-hooks", "prettier"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
